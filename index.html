@@ -16,17 +16,16 @@
         <div class="input">
             <div class="input-group">
                 <label for="name">Name</label>
-                <input type="text" name="" id="name">
+                <input type="text" name="" id="name" placeholder="Enter your name">
             </div>
             <div class="input-group">
                 <label for="email">Email</label>
-                <input type="email" name="" id="email">
+                <input type="email" name="" id="email" placeholder="Enter your Email" >
             </div>
             <div class="input-group">
-                <label for="age">Age</label>
-                <input type="number" name="" id="age" min="10" max="99">
+                <label for="age">Age<span>(optional)</span></label>
+                <input type="number" name="" id="age" min="10" max="99" placeholder="Age" >
             </div>
-
             <div class="input-group">
                 <p>Which option best describes your current role?</p>
                 <select name="" id="">
@@ -38,7 +37,17 @@
                     <option>Other</option>
                 </select>
             </div>
-
+            <div class="input-group">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <div class="radio-group">
+                    <input type="radio" id="Def" value="Definitely" checked >
+                    <label for="Def">Definitely</label>
+                    <input type="radio" id="Maybe" value="Maybe" >
+                    <label for="Maybe">Maybe</label>
+                    <input type="radio" id="Not" value="Not" >
+                    <label for="Not">Not sure</label>
+                </div>
+            </div>
         </div>
     </form>
 </body>
